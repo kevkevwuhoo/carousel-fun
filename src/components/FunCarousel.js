@@ -25,8 +25,7 @@ const FunCarousel = () => {
               url='https://www.youtube.com/watch?v=cnXapYkboRQ'
               width='100%'
               height='100%'
-              volume='0.1'
-              light
+              volume={0.1}
             />
           </div>
         </Slide>
@@ -37,8 +36,7 @@ const FunCarousel = () => {
               url='https://www.youtube.com/watch?v=cnXapYkboRQ'
               width='100%'
               height='100%'
-              volume='0.1'
-              light
+              volume={0.1}
             />
           </div>
         </Slide>
@@ -49,8 +47,7 @@ const FunCarousel = () => {
               url='https://www.youtube.com/watch?v=cnXapYkboRQ'
               width='100%'
               height='100%'
-              volume='0.1'
-              light
+              volume={0.1}
             />
           </div>
         </Slide>
@@ -61,8 +58,7 @@ const FunCarousel = () => {
               url='https://www.youtube.com/watch?v=cnXapYkboRQ'
               width='100%'
               height='100%'
-              volume='0.1'
-              light
+              volume={0.1}
             />
           </div>
         </Slide>
@@ -73,14 +69,15 @@ const FunCarousel = () => {
               url='https://www.youtube.com/watch?v=cnXapYkboRQ'
               width='100%'
               height='100%'
-              volume='0.1'
-              light
+              volume={0.1}
             />
           </div>
         </Slide>
       </Slider>
-      <ButtonBack>Back</ButtonBack>
-      <ButtonNext>Next</ButtonNext>
+      <div className='buttons'>
+        <ButtonBack>Back</ButtonBack>
+        <ButtonNext>Next</ButtonNext>
+      </div>
     </CarouselProvider>
   );
 };
